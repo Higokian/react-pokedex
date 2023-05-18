@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+
 import Pokedex from "./Pokedex";
 import './App.css';
 
