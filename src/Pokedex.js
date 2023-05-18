@@ -5,7 +5,13 @@ class Pokedex extends Component {
     render() {
         return (
             <div>
-                <Pokecard />
+                <Pokecard 
+                id={4}
+                name="Charmander"
+                type="fire"
+                exp={62}
+                />
+               
             </div>
         )
     }
