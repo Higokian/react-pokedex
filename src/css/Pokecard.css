@@ -1,3 +1,11 @@
+
+@keyframes hover-state {
+    0% {background-color: rgba(174, 57, 57, 0.884);}
+    25% {transform: scale(102%);}
+    100% {background-color: rgb(9, 103, 71);
+          transform: scale(107%);}
+}
+
 .Pokecard {
     background-color: rgba(174, 57, 57, 0.884);
     color: wheat;
@@ -7,6 +15,13 @@
     box-shadow: 7px 7px 20px 3px rgba(0, 0, 0, 0.24);
     text-align: center;
     border-radius: 17px;
+}
+
+.Pokecard:hover {
+   
+    animation-name: hover-state;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .Pokecard-name {
