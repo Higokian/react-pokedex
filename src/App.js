@@ -1,6 +1,6 @@
-import React, {Component} from "react";
-import Pokedex from "./Pokedex";
-import './App.css';
+
+import Pokedex from "./components/Pokedex";
+import './css/App.css';
 
 function App() {
   return (
