@@ -1,13 +1,13 @@
 
 @keyframes hover-state {
-    0% {background-color: rgba(174, 57, 57, 0.884);}
+    0% {background-color: rgb(87, 2, 2);}
     25% {transform: scale(102%);}
-    100% {background-color: rgb(9, 103, 71);
+    100% {background-color: rgb(189, 54, 54);
           transform: scale(107%);}
 }
 
 .Pokecard {
-    background-color: rgba(174, 57, 57, 0.884);
+    background-color: rgb(87, 2, 2);
     color: wheat;
     width: 250px;
     padding: 10px;
